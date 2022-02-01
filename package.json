@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alexma12/c1-technical-assessment#readme",
   "dependencies": {
+    "@types/jest": "^27.4.0",
     "jest": "^27.4.7"
   }
 }
